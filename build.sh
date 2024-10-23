@@ -18,6 +18,6 @@ echo "数据库迁移完成"
 python manage.py create_superuser
 
 echo "正在启动 Gunicorn..."
-gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+# gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
 echo "Gunicorn 启动完成"
 
