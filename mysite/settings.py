@@ -45,7 +45,7 @@ print("SUPERUSER_PASSWORD:", env("SUPERUSER_PASSWORD", default="未设置"))
 SECRET_KEY = 'django-insecure-y(!65f-c)^7jps1nqw&o2(rno%3q_wus_cd6w^zw(ekl3nonzq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
